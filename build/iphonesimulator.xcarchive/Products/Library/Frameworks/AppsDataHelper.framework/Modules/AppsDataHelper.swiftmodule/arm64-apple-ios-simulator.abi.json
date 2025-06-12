@@ -1,0 +1,3967 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppsDataHelper"
+      },
+      {
+        "kind": "Import",
+        "name": "AppsFlyerLib",
+        "printedName": "AppsFlyerLib",
+        "declKind": "Import",
+        "moduleName": "AppsDataHelper"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "nOU7rhoT",
+        "printedName": "nOU7rhoT",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "nOU7rhoT",
+                "printedName": "AppsDataHelper.nOU7rhoT",
+                "usr": "s:14AppsDataHelper8nOU7rhoTC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14AppsDataHelper8nOU7rhoTC6sharedACvpZ",
+            "mangledName": "$s14AppsDataHelper8nOU7rhoTC6sharedACvpZ",
+            "moduleName": "AppsDataHelper",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "nOU7rhoT",
+                    "printedName": "AppsDataHelper.nOU7rhoT",
+                    "usr": "s:14AppsDataHelper8nOU7rhoTC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AppsDataHelper8nOU7rhoTC6sharedACvgZ",
+                "mangledName": "$s14AppsDataHelper8nOU7rhoTC6sharedACvgZ",
+                "moduleName": "AppsDataHelper",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14AppsDataHelper8nOU7rhoTC5startyyF",
+            "mangledName": "$s14AppsDataHelper8nOU7rhoTC5startyyF",
+            "moduleName": "AppsDataHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14AppsDataHelper8nOU7rhoTC",
+        "mangledName": "$s14AppsDataHelper8nOU7rhoTC",
+        "moduleName": "AppsDataHelper",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AppsDataHelper"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "AppsDataHelper"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZbYKjd7e",
+        "printedName": "ZbYKjd7e",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "success",
+            "printedName": "success",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AppsDataHelper.ZbYKjd7e.Type) -> (Foundation.URL) -> AppsDataHelper.ZbYKjd7e",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.URL) -> AppsDataHelper.ZbYKjd7e",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZbYKjd7e",
+                        "printedName": "AppsDataHelper.ZbYKjd7e",
+                        "usr": "s:14AppsDataHelper8ZbYKjd7eO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AppsDataHelper.ZbYKjd7e.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZbYKjd7e",
+                        "printedName": "AppsDataHelper.ZbYKjd7e",
+                        "usr": "s:14AppsDataHelper8ZbYKjd7eO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14AppsDataHelper8ZbYKjd7eO7successyAC10Foundation3URLVcACmF",
+            "mangledName": "$s14AppsDataHelper8ZbYKjd7eO7successyAC10Foundation3URLVcACmF",
+            "moduleName": "AppsDataHelper"
+          },
+          {
+            "kind": "Var",
+            "name": "vNgR1Ed3",
+            "printedName": "vNgR1Ed3",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AppsDataHelper.ZbYKjd7e.Type) -> (Foundation.URL?) -> AppsDataHelper.ZbYKjd7e",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.URL?) -> AppsDataHelper.ZbYKjd7e",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZbYKjd7e",
+                        "printedName": "AppsDataHelper.ZbYKjd7e",
+                        "usr": "s:14AppsDataHelper8ZbYKjd7eO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.URL?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URL",
+                            "printedName": "Foundation.URL",
+                            "usr": "s:10Foundation3URLV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AppsDataHelper.ZbYKjd7e.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZbYKjd7e",
+                        "printedName": "AppsDataHelper.ZbYKjd7e",
+                        "usr": "s:14AppsDataHelper8ZbYKjd7eO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14AppsDataHelper8ZbYKjd7eO8vNgR1Ed3yAC10Foundation3URLVSgcACmF",
+            "mangledName": "$s14AppsDataHelper8ZbYKjd7eO8vNgR1Ed3yAC10Foundation3URLVSgcACmF",
+            "moduleName": "AppsDataHelper"
+          },
+          {
+            "kind": "Var",
+            "name": "rvLy4Q8p",
+            "printedName": "rvLy4Q8p",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AppsDataHelper.ZbYKjd7e.Type) -> AppsDataHelper.ZbYKjd7e",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZbYKjd7e",
+                    "printedName": "AppsDataHelper.ZbYKjd7e",
+                    "usr": "s:14AppsDataHelper8ZbYKjd7eO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AppsDataHelper.ZbYKjd7e.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZbYKjd7e",
+                        "printedName": "AppsDataHelper.ZbYKjd7e",
+                        "usr": "s:14AppsDataHelper8ZbYKjd7eO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14AppsDataHelper8ZbYKjd7eO8rvLy4Q8pyA2CmF",
+            "mangledName": "$s14AppsDataHelper8ZbYKjd7eO8rvLy4Q8pyA2CmF",
+            "moduleName": "AppsDataHelper"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:14AppsDataHelper8ZbYKjd7eO",
+        "mangledName": "$s14AppsDataHelper8ZbYKjd7eO",
+        "moduleName": "AppsDataHelper",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AppsDataHelper"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AppsDataHelper"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BWGSsreD",
+        "printedName": "BWGSsreD",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "portrait",
+            "printedName": "portrait",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AppsDataHelper.BWGSsreD.Type) -> AppsDataHelper.BWGSsreD",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BWGSsreD",
+                    "printedName": "AppsDataHelper.BWGSsreD",
+                    "usr": "s:14AppsDataHelper8BWGSsreDO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AppsDataHelper.BWGSsreD.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BWGSsreD",
+                        "printedName": "AppsDataHelper.BWGSsreD",
+                        "usr": "s:14AppsDataHelper8BWGSsreDO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14AppsDataHelper8BWGSsreDO8portraityA2CmF",
+            "mangledName": "$s14AppsDataHelper8BWGSsreDO8portraityA2CmF",
+            "moduleName": "AppsDataHelper"
+          },
+          {
+            "kind": "Var",
+            "name": "landscape",
+            "printedName": "landscape",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AppsDataHelper.BWGSsreD.Type) -> AppsDataHelper.BWGSsreD",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BWGSsreD",
+                    "printedName": "AppsDataHelper.BWGSsreD",
+                    "usr": "s:14AppsDataHelper8BWGSsreDO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AppsDataHelper.BWGSsreD.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BWGSsreD",
+                        "printedName": "AppsDataHelper.BWGSsreD",
+                        "usr": "s:14AppsDataHelper8BWGSsreDO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14AppsDataHelper8BWGSsreDO9landscapeyA2CmF",
+            "mangledName": "$s14AppsDataHelper8BWGSsreDO9landscapeyA2CmF",
+            "moduleName": "AppsDataHelper"
+          },
+          {
+            "kind": "Var",
+            "name": "all",
+            "printedName": "all",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AppsDataHelper.BWGSsreD.Type) -> AppsDataHelper.BWGSsreD",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BWGSsreD",
+                    "printedName": "AppsDataHelper.BWGSsreD",
+                    "usr": "s:14AppsDataHelper8BWGSsreDO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AppsDataHelper.BWGSsreD.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BWGSsreD",
+                        "printedName": "AppsDataHelper.BWGSsreD",
+                        "usr": "s:14AppsDataHelper8BWGSsreDO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14AppsDataHelper8BWGSsreDO3allyA2CmF",
+            "mangledName": "$s14AppsDataHelper8BWGSsreDO3allyA2CmF",
+            "moduleName": "AppsDataHelper"
+          },
+          {
+            "kind": "Var",
+            "name": "mask",
+            "printedName": "mask",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIInterfaceOrientationMask",
+                "printedName": "UIKit.UIInterfaceOrientationMask",
+                "usr": "c:@E@UIInterfaceOrientationMask"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14AppsDataHelper8BWGSsreDO4maskSo26UIInterfaceOrientationMaskVvp",
+            "mangledName": "$s14AppsDataHelper8BWGSsreDO4maskSo26UIInterfaceOrientationMaskVvp",
+            "moduleName": "AppsDataHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIInterfaceOrientationMask",
+                    "printedName": "UIKit.UIInterfaceOrientationMask",
+                    "usr": "c:@E@UIInterfaceOrientationMask"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AppsDataHelper8BWGSsreDO4maskSo26UIInterfaceOrientationMaskVvg",
+                "mangledName": "$s14AppsDataHelper8BWGSsreDO4maskSo26UIInterfaceOrientationMaskVvg",
+                "moduleName": "AppsDataHelper",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BWGSsreD",
+                "printedName": "AppsDataHelper.BWGSsreD",
+                "usr": "s:14AppsDataHelper8BWGSsreDO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BWGSsreD",
+                "printedName": "AppsDataHelper.BWGSsreD",
+                "usr": "s:14AppsDataHelper8BWGSsreDO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14AppsDataHelper8BWGSsreDO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s14AppsDataHelper8BWGSsreDO2eeoiySbAC_ACtFZ",
+            "moduleName": "AppsDataHelper",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14AppsDataHelper8BWGSsreDO9hashValueSivp",
+            "mangledName": "$s14AppsDataHelper8BWGSsreDO9hashValueSivp",
+            "moduleName": "AppsDataHelper",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AppsDataHelper8BWGSsreDO9hashValueSivg",
+                "mangledName": "$s14AppsDataHelper8BWGSsreDO9hashValueSivg",
+                "moduleName": "AppsDataHelper",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14AppsDataHelper8BWGSsreDO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s14AppsDataHelper8BWGSsreDO4hash4intoys6HasherVz_tF",
+            "moduleName": "AppsDataHelper",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:14AppsDataHelper8BWGSsreDO",
+        "mangledName": "$s14AppsDataHelper8BWGSsreDO",
+        "moduleName": "AppsDataHelper",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "mx4iUmzK",
+        "printedName": "mx4iUmzK",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "mx4iUmzK",
+                "printedName": "AppsDataHelper.mx4iUmzK",
+                "usr": "s:14AppsDataHelper8mx4iUmzKC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14AppsDataHelper8mx4iUmzKC6sharedACvpZ",
+            "mangledName": "$s14AppsDataHelper8mx4iUmzKC6sharedACvpZ",
+            "moduleName": "AppsDataHelper",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "mx4iUmzK",
+                    "printedName": "AppsDataHelper.mx4iUmzK",
+                    "usr": "s:14AppsDataHelper8mx4iUmzKC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AppsDataHelper8mx4iUmzKC6sharedACvgZ",
+                "mangledName": "$s14AppsDataHelper8mx4iUmzKC6sharedACvgZ",
+                "moduleName": "AppsDataHelper",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "orientation",
+            "printedName": "orientation",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BWGSsreD",
+                "printedName": "AppsDataHelper.BWGSsreD",
+                "usr": "s:14AppsDataHelper8BWGSsreDO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14AppsDataHelper8mx4iUmzKC11orientationAA8BWGSsreDOvp",
+            "mangledName": "$s14AppsDataHelper8mx4iUmzKC11orientationAA8BWGSsreDOvp",
+            "moduleName": "AppsDataHelper",
+            "declAttributes": [
+              "ProjectedValueProperty",
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BWGSsreD",
+                    "printedName": "AppsDataHelper.BWGSsreD",
+                    "usr": "s:14AppsDataHelper8BWGSsreDO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AppsDataHelper8mx4iUmzKC11orientationAA8BWGSsreDOvg",
+                "mangledName": "$s14AppsDataHelper8mx4iUmzKC11orientationAA8BWGSsreDOvg",
+                "moduleName": "AppsDataHelper",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BWGSsreD",
+                    "printedName": "AppsDataHelper.BWGSsreD",
+                    "usr": "s:14AppsDataHelper8BWGSsreDO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AppsDataHelper8mx4iUmzKC11orientationAA8BWGSsreDOvs",
+                "mangledName": "$s14AppsDataHelper8mx4iUmzKC11orientationAA8BWGSsreDOvs",
+                "moduleName": "AppsDataHelper",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AppsDataHelper8mx4iUmzKC11orientationAA8BWGSsreDOvM",
+                "mangledName": "$s14AppsDataHelper8mx4iUmzKC11orientationAA8BWGSsreDOvM",
+                "moduleName": "AppsDataHelper",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$orientation",
+            "printedName": "$orientation",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<AppsDataHelper.BWGSsreD>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14AppsDataHelper8mx4iUmzKC12$orientation7Combine9PublishedV9PublisherVyAA8BWGSsreDO_Gvp",
+            "mangledName": "$s14AppsDataHelper8mx4iUmzKC12$orientation7Combine9PublishedV9PublisherVyAA8BWGSsreDO_Gvp",
+            "moduleName": "AppsDataHelper",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<AppsDataHelper.BWGSsreD>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AppsDataHelper8mx4iUmzKC12$orientation7Combine9PublishedV9PublisherVyAA8BWGSsreDO_Gvg",
+                "mangledName": "$s14AppsDataHelper8mx4iUmzKC12$orientation7Combine9PublishedV9PublisherVyAA8BWGSsreDO_Gvg",
+                "moduleName": "AppsDataHelper",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<AppsDataHelper.BWGSsreD>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AppsDataHelper8mx4iUmzKC12$orientation7Combine9PublishedV9PublisherVyAA8BWGSsreDO_Gvs",
+                "mangledName": "$s14AppsDataHelper8mx4iUmzKC12$orientation7Combine9PublishedV9PublisherVyAA8BWGSsreDO_Gvs",
+                "moduleName": "AppsDataHelper",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AppsDataHelper8mx4iUmzKC12$orientation7Combine9PublishedV9PublisherVyAA8BWGSsreDO_GvM",
+                "mangledName": "$s14AppsDataHelper8mx4iUmzKC12$orientation7Combine9PublishedV9PublisherVyAA8BWGSsreDO_GvM",
+                "moduleName": "AppsDataHelper",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "va9vW7Ls",
+            "printedName": "va9vW7Ls(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BWGSsreD",
+                "printedName": "AppsDataHelper.BWGSsreD",
+                "usr": "s:14AppsDataHelper8BWGSsreDO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14AppsDataHelper8mx4iUmzKC8va9vW7LsyyAA8BWGSsreDOF",
+            "mangledName": "$s14AppsDataHelper8mx4iUmzKC8va9vW7LsyyAA8BWGSsreDOF",
+            "moduleName": "AppsDataHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14AppsDataHelper8mx4iUmzKC",
+        "mangledName": "$s14AppsDataHelper8mx4iUmzKC",
+        "moduleName": "AppsDataHelper",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ObservableObject",
+            "printedName": "ObservableObject",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ObjectWillChangePublisher",
+                "printedName": "ObjectWillChangePublisher",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObservableObjectPublisher",
+                    "printedName": "Combine.ObservableObjectPublisher",
+                    "usr": "s:7Combine25ObservableObjectPublisherC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine16ObservableObjectP",
+            "mangledName": "$s7Combine16ObservableObjectP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OrientationModifier",
+        "printedName": "OrientationModifier",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(orientation:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OrientationModifier",
+                "printedName": "AppsDataHelper.OrientationModifier",
+                "usr": "s:14AppsDataHelper19OrientationModifierV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BWGSsreD",
+                "printedName": "AppsDataHelper.BWGSsreD",
+                "usr": "s:14AppsDataHelper8BWGSsreDO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14AppsDataHelper19OrientationModifierV11orientationAcA8BWGSsreDO_tcfc",
+            "mangledName": "$s14AppsDataHelper19OrientationModifierV11orientationAcA8BWGSsreDO_tcfc",
+            "moduleName": "AppsDataHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "body",
+            "printedName": "body(content:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ModifiedContent",
+                "printedName": "SwiftUI.ModifiedContent<SwiftUI._ViewModifier_Content<AppsDataHelper.OrientationModifier>, SwiftUI._AppearanceActionModifier>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_ViewModifier_Content",
+                    "printedName": "SwiftUI._ViewModifier_Content<AppsDataHelper.OrientationModifier>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OrientationModifier",
+                        "printedName": "AppsDataHelper.OrientationModifier",
+                        "usr": "s:14AppsDataHelper19OrientationModifierV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI21_ViewModifier_ContentV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_AppearanceActionModifier",
+                    "printedName": "SwiftUI._AppearanceActionModifier",
+                    "usr": "s:7SwiftUI25_AppearanceActionModifierV"
+                  }
+                ],
+                "usr": "s:7SwiftUI15ModifiedContentV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "_ViewModifier_Content",
+                "printedName": "SwiftUI._ViewModifier_Content<AppsDataHelper.OrientationModifier>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OrientationModifier",
+                    "printedName": "AppsDataHelper.OrientationModifier",
+                    "usr": "s:14AppsDataHelper19OrientationModifierV"
+                  }
+                ],
+                "usr": "s:7SwiftUI21_ViewModifier_ContentV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14AppsDataHelper19OrientationModifierV4body7contentQr7SwiftUI05_ViewE8_ContentVyACG_tF",
+            "mangledName": "$s14AppsDataHelper19OrientationModifierV4body7contentQr7SwiftUI05_ViewE8_ContentVyACG_tF",
+            "moduleName": "AppsDataHelper",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14AppsDataHelper19OrientationModifierV",
+        "mangledName": "$s14AppsDataHelper19OrientationModifierV",
+        "moduleName": "AppsDataHelper",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ViewModifier",
+            "printedName": "ViewModifier",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ModifiedContent",
+                    "printedName": "SwiftUI.ModifiedContent<SwiftUI._ViewModifier_Content<AppsDataHelper.OrientationModifier>, SwiftUI._AppearanceActionModifier>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "_ViewModifier_Content",
+                        "printedName": "SwiftUI._ViewModifier_Content<AppsDataHelper.OrientationModifier>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "OrientationModifier",
+                            "printedName": "AppsDataHelper.OrientationModifier",
+                            "usr": "s:14AppsDataHelper19OrientationModifierV"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI21_ViewModifier_ContentV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "_AppearanceActionModifier",
+                        "printedName": "SwiftUI._AppearanceActionModifier",
+                        "usr": "s:7SwiftUI25_AppearanceActionModifierV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI15ModifiedContentV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI12ViewModifierP",
+            "mangledName": "$s7SwiftUI12ViewModifierP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OrientationDelegate",
+        "printedName": "OrientationDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "iE6EOopj",
+            "printedName": "iE6EOopj()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIInterfaceOrientationMask",
+                "printedName": "UIKit.UIInterfaceOrientationMask",
+                "usr": "c:@E@UIInterfaceOrientationMask"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14AppsDataHelper19OrientationDelegateP8iE6EOopjSo011UIInterfaceD4MaskVyF",
+            "mangledName": "$s14AppsDataHelper19OrientationDelegateP8iE6EOopjSo011UIInterfaceD4MaskVyF",
+            "moduleName": "AppsDataHelper",
+            "genericSig": "<τ_0_0 where τ_0_0 : AppsDataHelper.OrientationDelegate>",
+            "sugared_genericSig": "<Self where Self : AppsDataHelper.OrientationDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:14AppsDataHelper19OrientationDelegateP",
+        "mangledName": "$s14AppsDataHelper19OrientationDelegateP",
+        "moduleName": "AppsDataHelper",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AppsDataHelper"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AppsDataHelper"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "StartView",
+        "printedName": "StartView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(core:game:loader:tutorial:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "StartView",
+                "printedName": "AppsDataHelper.StartView",
+                "usr": "s:14AppsDataHelper9StartViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BWGSsreD",
+                "printedName": "AppsDataHelper.BWGSsreD",
+                "hasDefaultArg": true,
+                "usr": "s:14AppsDataHelper8BWGSsreDO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BWGSsreD",
+                "printedName": "AppsDataHelper.BWGSsreD",
+                "hasDefaultArg": true,
+                "usr": "s:14AppsDataHelper8BWGSsreDO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BWGSsreD",
+                "printedName": "AppsDataHelper.BWGSsreD",
+                "hasDefaultArg": true,
+                "usr": "s:14AppsDataHelper8BWGSsreDO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BWGSsreD",
+                "printedName": "AppsDataHelper.BWGSsreD",
+                "hasDefaultArg": true,
+                "usr": "s:14AppsDataHelper8BWGSsreDO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14AppsDataHelper9StartViewV4core4game6loader8tutorialAcA8BWGSsreDO_A3Itcfc",
+            "mangledName": "$s14AppsDataHelper9StartViewV4core4game6loader8tutorialAcA8BWGSsreDO_A3Itcfc",
+            "moduleName": "AppsDataHelper",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ModifiedContent",
+                "printedName": "SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Foundation.NotificationCenter.Publisher, SwiftUI.SubscriptionView<Foundation.NotificationCenter.Publisher, SwiftUI.SubscriptionView<Foundation.NotificationCenter.Publisher, SwiftUI.Group<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>, SwiftUI.ModifiedContent<AppsDataHelper.TutorialView<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>?)>>, SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>>, SwiftUI.ModifiedContent<AppsDataHelper.GameView<SwiftUI.AnyView?>, AppsDataHelper.OrientationModifier>>, SwiftUI.ModifiedContent<AppsDataHelper.Loader<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>>>>>>, SwiftUI._AppearanceActionModifier>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SubscriptionView",
+                    "printedName": "SwiftUI.SubscriptionView<Foundation.NotificationCenter.Publisher, SwiftUI.SubscriptionView<Foundation.NotificationCenter.Publisher, SwiftUI.SubscriptionView<Foundation.NotificationCenter.Publisher, SwiftUI.Group<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>, SwiftUI.ModifiedContent<AppsDataHelper.TutorialView<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>?)>>, SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>>, SwiftUI.ModifiedContent<AppsDataHelper.GameView<SwiftUI.AnyView?>, AppsDataHelper.OrientationModifier>>, SwiftUI.ModifiedContent<AppsDataHelper.Loader<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>>>>>>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Publisher",
+                        "printedName": "Foundation.NotificationCenter.Publisher",
+                        "usr": "s:So20NSNotificationCenterC10FoundationE9PublisherV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SubscriptionView",
+                        "printedName": "SwiftUI.SubscriptionView<Foundation.NotificationCenter.Publisher, SwiftUI.SubscriptionView<Foundation.NotificationCenter.Publisher, SwiftUI.Group<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>, SwiftUI.ModifiedContent<AppsDataHelper.TutorialView<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>?)>>, SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>>, SwiftUI.ModifiedContent<AppsDataHelper.GameView<SwiftUI.AnyView?>, AppsDataHelper.OrientationModifier>>, SwiftUI.ModifiedContent<AppsDataHelper.Loader<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>>>>>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Publisher",
+                            "printedName": "Foundation.NotificationCenter.Publisher",
+                            "usr": "s:So20NSNotificationCenterC10FoundationE9PublisherV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SubscriptionView",
+                            "printedName": "SwiftUI.SubscriptionView<Foundation.NotificationCenter.Publisher, SwiftUI.Group<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>, SwiftUI.ModifiedContent<AppsDataHelper.TutorialView<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>?)>>, SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>>, SwiftUI.ModifiedContent<AppsDataHelper.GameView<SwiftUI.AnyView?>, AppsDataHelper.OrientationModifier>>, SwiftUI.ModifiedContent<AppsDataHelper.Loader<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>>>>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Publisher",
+                                "printedName": "Foundation.NotificationCenter.Publisher",
+                                "usr": "s:So20NSNotificationCenterC10FoundationE9PublisherV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Group",
+                                "printedName": "SwiftUI.Group<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>, SwiftUI.ModifiedContent<AppsDataHelper.TutorialView<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>?)>>, SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>>, SwiftUI.ModifiedContent<AppsDataHelper.GameView<SwiftUI.AnyView?>, AppsDataHelper.OrientationModifier>>, SwiftUI.ModifiedContent<AppsDataHelper.Loader<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>>>",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "_ConditionalContent",
+                                    "printedName": "SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>, SwiftUI.ModifiedContent<AppsDataHelper.TutorialView<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>?)>>, SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>>, SwiftUI.ModifiedContent<AppsDataHelper.GameView<SwiftUI.AnyView?>, AppsDataHelper.OrientationModifier>>, SwiftUI.ModifiedContent<AppsDataHelper.Loader<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>>",
+                                    "children": [
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "_ConditionalContent",
+                                        "printedName": "SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>, SwiftUI.ModifiedContent<AppsDataHelper.TutorialView<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>?)>>, SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>>, SwiftUI.ModifiedContent<AppsDataHelper.GameView<SwiftUI.AnyView?>, AppsDataHelper.OrientationModifier>>",
+                                        "children": [
+                                          {
+                                            "kind": "TypeNominal",
+                                            "name": "_ConditionalContent",
+                                            "printedName": "SwiftUI._ConditionalContent<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>, SwiftUI.ModifiedContent<AppsDataHelper.TutorialView<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>?)>>, SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>>",
+                                            "children": [
+                                              {
+                                                "kind": "TypeNominal",
+                                                "name": "ZStack",
+                                                "printedName": "SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>, SwiftUI.ModifiedContent<AppsDataHelper.TutorialView<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>?)>>",
+                                                "children": [
+                                                  {
+                                                    "kind": "TypeNominal",
+                                                    "name": "TupleView",
+                                                    "printedName": "SwiftUI.TupleView<(SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>, SwiftUI.ModifiedContent<AppsDataHelper.TutorialView<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>?)>",
+                                                    "children": [
+                                                      {
+                                                        "kind": "TypeNominal",
+                                                        "name": "Tuple",
+                                                        "printedName": "(SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>, SwiftUI.ModifiedContent<AppsDataHelper.TutorialView<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>?)",
+                                                        "children": [
+                                                          {
+                                                            "kind": "TypeNominal",
+                                                            "name": "ModifiedContent",
+                                                            "printedName": "SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>",
+                                                            "children": [
+                                                              {
+                                                                "kind": "TypeNominal",
+                                                                "name": "IPu3jax8",
+                                                                "printedName": "AppsDataHelper.IPu3jax8",
+                                                                "usr": "s:14AppsDataHelper8IPu3jax8V"
+                                                              },
+                                                              {
+                                                                "kind": "TypeNominal",
+                                                                "name": "OrientationModifier",
+                                                                "printedName": "AppsDataHelper.OrientationModifier",
+                                                                "usr": "s:14AppsDataHelper19OrientationModifierV"
+                                                              }
+                                                            ],
+                                                            "usr": "s:7SwiftUI15ModifiedContentV"
+                                                          },
+                                                          {
+                                                            "kind": "TypeNominal",
+                                                            "name": "Optional",
+                                                            "printedName": "SwiftUI.ModifiedContent<AppsDataHelper.TutorialView<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>?",
+                                                            "children": [
+                                                              {
+                                                                "kind": "TypeNominal",
+                                                                "name": "ModifiedContent",
+                                                                "printedName": "SwiftUI.ModifiedContent<AppsDataHelper.TutorialView<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>",
+                                                                "children": [
+                                                                  {
+                                                                    "kind": "TypeNominal",
+                                                                    "name": "TutorialView",
+                                                                    "printedName": "AppsDataHelper.TutorialView<SwiftUI.AnyView>",
+                                                                    "children": [
+                                                                      {
+                                                                        "kind": "TypeNominal",
+                                                                        "name": "AnyView",
+                                                                        "printedName": "SwiftUI.AnyView",
+                                                                        "usr": "s:7SwiftUI7AnyViewV"
+                                                                      }
+                                                                    ],
+                                                                    "usr": "s:14AppsDataHelper12TutorialViewV"
+                                                                  },
+                                                                  {
+                                                                    "kind": "TypeNominal",
+                                                                    "name": "OrientationModifier",
+                                                                    "printedName": "AppsDataHelper.OrientationModifier",
+                                                                    "usr": "s:14AppsDataHelper19OrientationModifierV"
+                                                                  }
+                                                                ],
+                                                                "usr": "s:7SwiftUI15ModifiedContentV"
+                                                              }
+                                                            ],
+                                                            "usr": "s:Sq"
+                                                          }
+                                                        ]
+                                                      }
+                                                    ],
+                                                    "usr": "s:7SwiftUI9TupleViewV"
+                                                  }
+                                                ],
+                                                "usr": "s:7SwiftUI6ZStackV"
+                                              },
+                                              {
+                                                "kind": "TypeNominal",
+                                                "name": "ModifiedContent",
+                                                "printedName": "SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>",
+                                                "children": [
+                                                  {
+                                                    "kind": "TypeNominal",
+                                                    "name": "IPu3jax8",
+                                                    "printedName": "AppsDataHelper.IPu3jax8",
+                                                    "usr": "s:14AppsDataHelper8IPu3jax8V"
+                                                  },
+                                                  {
+                                                    "kind": "TypeNominal",
+                                                    "name": "OrientationModifier",
+                                                    "printedName": "AppsDataHelper.OrientationModifier",
+                                                    "usr": "s:14AppsDataHelper19OrientationModifierV"
+                                                  }
+                                                ],
+                                                "usr": "s:7SwiftUI15ModifiedContentV"
+                                              }
+                                            ],
+                                            "usr": "s:7SwiftUI19_ConditionalContentV"
+                                          },
+                                          {
+                                            "kind": "TypeNominal",
+                                            "name": "ModifiedContent",
+                                            "printedName": "SwiftUI.ModifiedContent<AppsDataHelper.GameView<SwiftUI.AnyView?>, AppsDataHelper.OrientationModifier>",
+                                            "children": [
+                                              {
+                                                "kind": "TypeNominal",
+                                                "name": "GameView",
+                                                "printedName": "AppsDataHelper.GameView<SwiftUI.AnyView?>",
+                                                "children": [
+                                                  {
+                                                    "kind": "TypeNominal",
+                                                    "name": "Optional",
+                                                    "printedName": "SwiftUI.AnyView?",
+                                                    "children": [
+                                                      {
+                                                        "kind": "TypeNominal",
+                                                        "name": "AnyView",
+                                                        "printedName": "SwiftUI.AnyView",
+                                                        "usr": "s:7SwiftUI7AnyViewV"
+                                                      }
+                                                    ],
+                                                    "usr": "s:Sq"
+                                                  }
+                                                ],
+                                                "usr": "s:14AppsDataHelper8GameViewV"
+                                              },
+                                              {
+                                                "kind": "TypeNominal",
+                                                "name": "OrientationModifier",
+                                                "printedName": "AppsDataHelper.OrientationModifier",
+                                                "usr": "s:14AppsDataHelper19OrientationModifierV"
+                                              }
+                                            ],
+                                            "usr": "s:7SwiftUI15ModifiedContentV"
+                                          }
+                                        ],
+                                        "usr": "s:7SwiftUI19_ConditionalContentV"
+                                      },
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "ModifiedContent",
+                                        "printedName": "SwiftUI.ModifiedContent<AppsDataHelper.Loader<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>",
+                                        "children": [
+                                          {
+                                            "kind": "TypeNominal",
+                                            "name": "Loader",
+                                            "printedName": "AppsDataHelper.Loader<SwiftUI.AnyView>",
+                                            "children": [
+                                              {
+                                                "kind": "TypeNominal",
+                                                "name": "AnyView",
+                                                "printedName": "SwiftUI.AnyView",
+                                                "usr": "s:7SwiftUI7AnyViewV"
+                                              }
+                                            ],
+                                            "usr": "s:14AppsDataHelper6LoaderV"
+                                          },
+                                          {
+                                            "kind": "TypeNominal",
+                                            "name": "OrientationModifier",
+                                            "printedName": "AppsDataHelper.OrientationModifier",
+                                            "usr": "s:14AppsDataHelper19OrientationModifierV"
+                                          }
+                                        ],
+                                        "usr": "s:7SwiftUI15ModifiedContentV"
+                                      }
+                                    ],
+                                    "usr": "s:7SwiftUI19_ConditionalContentV"
+                                  }
+                                ],
+                                "usr": "s:7SwiftUI5GroupV"
+                              }
+                            ],
+                            "usr": "s:7SwiftUI16SubscriptionViewV"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI16SubscriptionViewV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI16SubscriptionViewV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_AppearanceActionModifier",
+                    "printedName": "SwiftUI._AppearanceActionModifier",
+                    "usr": "s:7SwiftUI25_AppearanceActionModifierV"
+                  }
+                ],
+                "usr": "s:7SwiftUI15ModifiedContentV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14AppsDataHelper9StartViewV4bodyQrvp",
+            "mangledName": "$s14AppsDataHelper9StartViewV4bodyQrvp",
+            "moduleName": "AppsDataHelper",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ModifiedContent",
+                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Foundation.NotificationCenter.Publisher, SwiftUI.SubscriptionView<Foundation.NotificationCenter.Publisher, SwiftUI.SubscriptionView<Foundation.NotificationCenter.Publisher, SwiftUI.Group<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>, SwiftUI.ModifiedContent<AppsDataHelper.TutorialView<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>?)>>, SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>>, SwiftUI.ModifiedContent<AppsDataHelper.GameView<SwiftUI.AnyView?>, AppsDataHelper.OrientationModifier>>, SwiftUI.ModifiedContent<AppsDataHelper.Loader<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>>>>>>, SwiftUI._AppearanceActionModifier>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SubscriptionView",
+                        "printedName": "SwiftUI.SubscriptionView<Foundation.NotificationCenter.Publisher, SwiftUI.SubscriptionView<Foundation.NotificationCenter.Publisher, SwiftUI.SubscriptionView<Foundation.NotificationCenter.Publisher, SwiftUI.Group<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>, SwiftUI.ModifiedContent<AppsDataHelper.TutorialView<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>?)>>, SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>>, SwiftUI.ModifiedContent<AppsDataHelper.GameView<SwiftUI.AnyView?>, AppsDataHelper.OrientationModifier>>, SwiftUI.ModifiedContent<AppsDataHelper.Loader<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>>>>>>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Publisher",
+                            "printedName": "Foundation.NotificationCenter.Publisher",
+                            "usr": "s:So20NSNotificationCenterC10FoundationE9PublisherV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SubscriptionView",
+                            "printedName": "SwiftUI.SubscriptionView<Foundation.NotificationCenter.Publisher, SwiftUI.SubscriptionView<Foundation.NotificationCenter.Publisher, SwiftUI.Group<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>, SwiftUI.ModifiedContent<AppsDataHelper.TutorialView<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>?)>>, SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>>, SwiftUI.ModifiedContent<AppsDataHelper.GameView<SwiftUI.AnyView?>, AppsDataHelper.OrientationModifier>>, SwiftUI.ModifiedContent<AppsDataHelper.Loader<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>>>>>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Publisher",
+                                "printedName": "Foundation.NotificationCenter.Publisher",
+                                "usr": "s:So20NSNotificationCenterC10FoundationE9PublisherV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "SubscriptionView",
+                                "printedName": "SwiftUI.SubscriptionView<Foundation.NotificationCenter.Publisher, SwiftUI.Group<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>, SwiftUI.ModifiedContent<AppsDataHelper.TutorialView<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>?)>>, SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>>, SwiftUI.ModifiedContent<AppsDataHelper.GameView<SwiftUI.AnyView?>, AppsDataHelper.OrientationModifier>>, SwiftUI.ModifiedContent<AppsDataHelper.Loader<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>>>>",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Publisher",
+                                    "printedName": "Foundation.NotificationCenter.Publisher",
+                                    "usr": "s:So20NSNotificationCenterC10FoundationE9PublisherV"
+                                  },
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Group",
+                                    "printedName": "SwiftUI.Group<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>, SwiftUI.ModifiedContent<AppsDataHelper.TutorialView<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>?)>>, SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>>, SwiftUI.ModifiedContent<AppsDataHelper.GameView<SwiftUI.AnyView?>, AppsDataHelper.OrientationModifier>>, SwiftUI.ModifiedContent<AppsDataHelper.Loader<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>>>",
+                                    "children": [
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "_ConditionalContent",
+                                        "printedName": "SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>, SwiftUI.ModifiedContent<AppsDataHelper.TutorialView<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>?)>>, SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>>, SwiftUI.ModifiedContent<AppsDataHelper.GameView<SwiftUI.AnyView?>, AppsDataHelper.OrientationModifier>>, SwiftUI.ModifiedContent<AppsDataHelper.Loader<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>>",
+                                        "children": [
+                                          {
+                                            "kind": "TypeNominal",
+                                            "name": "_ConditionalContent",
+                                            "printedName": "SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>, SwiftUI.ModifiedContent<AppsDataHelper.TutorialView<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>?)>>, SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>>, SwiftUI.ModifiedContent<AppsDataHelper.GameView<SwiftUI.AnyView?>, AppsDataHelper.OrientationModifier>>",
+                                            "children": [
+                                              {
+                                                "kind": "TypeNominal",
+                                                "name": "_ConditionalContent",
+                                                "printedName": "SwiftUI._ConditionalContent<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>, SwiftUI.ModifiedContent<AppsDataHelper.TutorialView<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>?)>>, SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>>",
+                                                "children": [
+                                                  {
+                                                    "kind": "TypeNominal",
+                                                    "name": "ZStack",
+                                                    "printedName": "SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>, SwiftUI.ModifiedContent<AppsDataHelper.TutorialView<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>?)>>",
+                                                    "children": [
+                                                      {
+                                                        "kind": "TypeNominal",
+                                                        "name": "TupleView",
+                                                        "printedName": "SwiftUI.TupleView<(SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>, SwiftUI.ModifiedContent<AppsDataHelper.TutorialView<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>?)>",
+                                                        "children": [
+                                                          {
+                                                            "kind": "TypeNominal",
+                                                            "name": "Tuple",
+                                                            "printedName": "(SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>, SwiftUI.ModifiedContent<AppsDataHelper.TutorialView<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>?)",
+                                                            "children": [
+                                                              {
+                                                                "kind": "TypeNominal",
+                                                                "name": "ModifiedContent",
+                                                                "printedName": "SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>",
+                                                                "children": [
+                                                                  {
+                                                                    "kind": "TypeNominal",
+                                                                    "name": "IPu3jax8",
+                                                                    "printedName": "AppsDataHelper.IPu3jax8",
+                                                                    "usr": "s:14AppsDataHelper8IPu3jax8V"
+                                                                  },
+                                                                  {
+                                                                    "kind": "TypeNominal",
+                                                                    "name": "OrientationModifier",
+                                                                    "printedName": "AppsDataHelper.OrientationModifier",
+                                                                    "usr": "s:14AppsDataHelper19OrientationModifierV"
+                                                                  }
+                                                                ],
+                                                                "usr": "s:7SwiftUI15ModifiedContentV"
+                                                              },
+                                                              {
+                                                                "kind": "TypeNominal",
+                                                                "name": "Optional",
+                                                                "printedName": "SwiftUI.ModifiedContent<AppsDataHelper.TutorialView<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>?",
+                                                                "children": [
+                                                                  {
+                                                                    "kind": "TypeNominal",
+                                                                    "name": "ModifiedContent",
+                                                                    "printedName": "SwiftUI.ModifiedContent<AppsDataHelper.TutorialView<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>",
+                                                                    "children": [
+                                                                      {
+                                                                        "kind": "TypeNominal",
+                                                                        "name": "TutorialView",
+                                                                        "printedName": "AppsDataHelper.TutorialView<SwiftUI.AnyView>",
+                                                                        "children": [
+                                                                          {
+                                                                            "kind": "TypeNominal",
+                                                                            "name": "AnyView",
+                                                                            "printedName": "SwiftUI.AnyView",
+                                                                            "usr": "s:7SwiftUI7AnyViewV"
+                                                                          }
+                                                                        ],
+                                                                        "usr": "s:14AppsDataHelper12TutorialViewV"
+                                                                      },
+                                                                      {
+                                                                        "kind": "TypeNominal",
+                                                                        "name": "OrientationModifier",
+                                                                        "printedName": "AppsDataHelper.OrientationModifier",
+                                                                        "usr": "s:14AppsDataHelper19OrientationModifierV"
+                                                                      }
+                                                                    ],
+                                                                    "usr": "s:7SwiftUI15ModifiedContentV"
+                                                                  }
+                                                                ],
+                                                                "usr": "s:Sq"
+                                                              }
+                                                            ]
+                                                          }
+                                                        ],
+                                                        "usr": "s:7SwiftUI9TupleViewV"
+                                                      }
+                                                    ],
+                                                    "usr": "s:7SwiftUI6ZStackV"
+                                                  },
+                                                  {
+                                                    "kind": "TypeNominal",
+                                                    "name": "ModifiedContent",
+                                                    "printedName": "SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>",
+                                                    "children": [
+                                                      {
+                                                        "kind": "TypeNominal",
+                                                        "name": "IPu3jax8",
+                                                        "printedName": "AppsDataHelper.IPu3jax8",
+                                                        "usr": "s:14AppsDataHelper8IPu3jax8V"
+                                                      },
+                                                      {
+                                                        "kind": "TypeNominal",
+                                                        "name": "OrientationModifier",
+                                                        "printedName": "AppsDataHelper.OrientationModifier",
+                                                        "usr": "s:14AppsDataHelper19OrientationModifierV"
+                                                      }
+                                                    ],
+                                                    "usr": "s:7SwiftUI15ModifiedContentV"
+                                                  }
+                                                ],
+                                                "usr": "s:7SwiftUI19_ConditionalContentV"
+                                              },
+                                              {
+                                                "kind": "TypeNominal",
+                                                "name": "ModifiedContent",
+                                                "printedName": "SwiftUI.ModifiedContent<AppsDataHelper.GameView<SwiftUI.AnyView?>, AppsDataHelper.OrientationModifier>",
+                                                "children": [
+                                                  {
+                                                    "kind": "TypeNominal",
+                                                    "name": "GameView",
+                                                    "printedName": "AppsDataHelper.GameView<SwiftUI.AnyView?>",
+                                                    "children": [
+                                                      {
+                                                        "kind": "TypeNominal",
+                                                        "name": "Optional",
+                                                        "printedName": "SwiftUI.AnyView?",
+                                                        "children": [
+                                                          {
+                                                            "kind": "TypeNominal",
+                                                            "name": "AnyView",
+                                                            "printedName": "SwiftUI.AnyView",
+                                                            "usr": "s:7SwiftUI7AnyViewV"
+                                                          }
+                                                        ],
+                                                        "usr": "s:Sq"
+                                                      }
+                                                    ],
+                                                    "usr": "s:14AppsDataHelper8GameViewV"
+                                                  },
+                                                  {
+                                                    "kind": "TypeNominal",
+                                                    "name": "OrientationModifier",
+                                                    "printedName": "AppsDataHelper.OrientationModifier",
+                                                    "usr": "s:14AppsDataHelper19OrientationModifierV"
+                                                  }
+                                                ],
+                                                "usr": "s:7SwiftUI15ModifiedContentV"
+                                              }
+                                            ],
+                                            "usr": "s:7SwiftUI19_ConditionalContentV"
+                                          },
+                                          {
+                                            "kind": "TypeNominal",
+                                            "name": "ModifiedContent",
+                                            "printedName": "SwiftUI.ModifiedContent<AppsDataHelper.Loader<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>",
+                                            "children": [
+                                              {
+                                                "kind": "TypeNominal",
+                                                "name": "Loader",
+                                                "printedName": "AppsDataHelper.Loader<SwiftUI.AnyView>",
+                                                "children": [
+                                                  {
+                                                    "kind": "TypeNominal",
+                                                    "name": "AnyView",
+                                                    "printedName": "SwiftUI.AnyView",
+                                                    "usr": "s:7SwiftUI7AnyViewV"
+                                                  }
+                                                ],
+                                                "usr": "s:14AppsDataHelper6LoaderV"
+                                              },
+                                              {
+                                                "kind": "TypeNominal",
+                                                "name": "OrientationModifier",
+                                                "printedName": "AppsDataHelper.OrientationModifier",
+                                                "usr": "s:14AppsDataHelper19OrientationModifierV"
+                                              }
+                                            ],
+                                            "usr": "s:7SwiftUI15ModifiedContentV"
+                                          }
+                                        ],
+                                        "usr": "s:7SwiftUI19_ConditionalContentV"
+                                      }
+                                    ],
+                                    "usr": "s:7SwiftUI5GroupV"
+                                  }
+                                ],
+                                "usr": "s:7SwiftUI16SubscriptionViewV"
+                              }
+                            ],
+                            "usr": "s:7SwiftUI16SubscriptionViewV"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI16SubscriptionViewV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "_AppearanceActionModifier",
+                        "printedName": "SwiftUI._AppearanceActionModifier",
+                        "usr": "s:7SwiftUI25_AppearanceActionModifierV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI15ModifiedContentV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AppsDataHelper9StartViewV4bodyQrvg",
+                "mangledName": "$s14AppsDataHelper9StartViewV4bodyQrvg",
+                "moduleName": "AppsDataHelper",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14AppsDataHelper9StartViewV",
+        "mangledName": "$s14AppsDataHelper9StartViewV",
+        "moduleName": "AppsDataHelper",
+        "declAttributes": [
+          "Custom",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ModifiedContent",
+                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Foundation.NotificationCenter.Publisher, SwiftUI.SubscriptionView<Foundation.NotificationCenter.Publisher, SwiftUI.SubscriptionView<Foundation.NotificationCenter.Publisher, SwiftUI.Group<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>, SwiftUI.ModifiedContent<AppsDataHelper.TutorialView<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>?)>>, SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>>, SwiftUI.ModifiedContent<AppsDataHelper.GameView<SwiftUI.AnyView?>, AppsDataHelper.OrientationModifier>>, SwiftUI.ModifiedContent<AppsDataHelper.Loader<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>>>>>>, SwiftUI._AppearanceActionModifier>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SubscriptionView",
+                        "printedName": "SwiftUI.SubscriptionView<Foundation.NotificationCenter.Publisher, SwiftUI.SubscriptionView<Foundation.NotificationCenter.Publisher, SwiftUI.SubscriptionView<Foundation.NotificationCenter.Publisher, SwiftUI.Group<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>, SwiftUI.ModifiedContent<AppsDataHelper.TutorialView<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>?)>>, SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>>, SwiftUI.ModifiedContent<AppsDataHelper.GameView<SwiftUI.AnyView?>, AppsDataHelper.OrientationModifier>>, SwiftUI.ModifiedContent<AppsDataHelper.Loader<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>>>>>>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Publisher",
+                            "printedName": "Foundation.NotificationCenter.Publisher",
+                            "usr": "s:So20NSNotificationCenterC10FoundationE9PublisherV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SubscriptionView",
+                            "printedName": "SwiftUI.SubscriptionView<Foundation.NotificationCenter.Publisher, SwiftUI.SubscriptionView<Foundation.NotificationCenter.Publisher, SwiftUI.Group<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>, SwiftUI.ModifiedContent<AppsDataHelper.TutorialView<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>?)>>, SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>>, SwiftUI.ModifiedContent<AppsDataHelper.GameView<SwiftUI.AnyView?>, AppsDataHelper.OrientationModifier>>, SwiftUI.ModifiedContent<AppsDataHelper.Loader<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>>>>>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Publisher",
+                                "printedName": "Foundation.NotificationCenter.Publisher",
+                                "usr": "s:So20NSNotificationCenterC10FoundationE9PublisherV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "SubscriptionView",
+                                "printedName": "SwiftUI.SubscriptionView<Foundation.NotificationCenter.Publisher, SwiftUI.Group<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>, SwiftUI.ModifiedContent<AppsDataHelper.TutorialView<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>?)>>, SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>>, SwiftUI.ModifiedContent<AppsDataHelper.GameView<SwiftUI.AnyView?>, AppsDataHelper.OrientationModifier>>, SwiftUI.ModifiedContent<AppsDataHelper.Loader<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>>>>",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Publisher",
+                                    "printedName": "Foundation.NotificationCenter.Publisher",
+                                    "usr": "s:So20NSNotificationCenterC10FoundationE9PublisherV"
+                                  },
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Group",
+                                    "printedName": "SwiftUI.Group<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>, SwiftUI.ModifiedContent<AppsDataHelper.TutorialView<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>?)>>, SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>>, SwiftUI.ModifiedContent<AppsDataHelper.GameView<SwiftUI.AnyView?>, AppsDataHelper.OrientationModifier>>, SwiftUI.ModifiedContent<AppsDataHelper.Loader<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>>>",
+                                    "children": [
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "_ConditionalContent",
+                                        "printedName": "SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>, SwiftUI.ModifiedContent<AppsDataHelper.TutorialView<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>?)>>, SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>>, SwiftUI.ModifiedContent<AppsDataHelper.GameView<SwiftUI.AnyView?>, AppsDataHelper.OrientationModifier>>, SwiftUI.ModifiedContent<AppsDataHelper.Loader<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>>",
+                                        "children": [
+                                          {
+                                            "kind": "TypeNominal",
+                                            "name": "_ConditionalContent",
+                                            "printedName": "SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>, SwiftUI.ModifiedContent<AppsDataHelper.TutorialView<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>?)>>, SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>>, SwiftUI.ModifiedContent<AppsDataHelper.GameView<SwiftUI.AnyView?>, AppsDataHelper.OrientationModifier>>",
+                                            "children": [
+                                              {
+                                                "kind": "TypeNominal",
+                                                "name": "_ConditionalContent",
+                                                "printedName": "SwiftUI._ConditionalContent<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>, SwiftUI.ModifiedContent<AppsDataHelper.TutorialView<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>?)>>, SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>>",
+                                                "children": [
+                                                  {
+                                                    "kind": "TypeNominal",
+                                                    "name": "ZStack",
+                                                    "printedName": "SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>, SwiftUI.ModifiedContent<AppsDataHelper.TutorialView<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>?)>>",
+                                                    "children": [
+                                                      {
+                                                        "kind": "TypeNominal",
+                                                        "name": "TupleView",
+                                                        "printedName": "SwiftUI.TupleView<(SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>, SwiftUI.ModifiedContent<AppsDataHelper.TutorialView<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>?)>",
+                                                        "children": [
+                                                          {
+                                                            "kind": "TypeNominal",
+                                                            "name": "Tuple",
+                                                            "printedName": "(SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>, SwiftUI.ModifiedContent<AppsDataHelper.TutorialView<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>?)",
+                                                            "children": [
+                                                              {
+                                                                "kind": "TypeNominal",
+                                                                "name": "ModifiedContent",
+                                                                "printedName": "SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>",
+                                                                "children": [
+                                                                  {
+                                                                    "kind": "TypeNominal",
+                                                                    "name": "IPu3jax8",
+                                                                    "printedName": "AppsDataHelper.IPu3jax8",
+                                                                    "usr": "s:14AppsDataHelper8IPu3jax8V"
+                                                                  },
+                                                                  {
+                                                                    "kind": "TypeNominal",
+                                                                    "name": "OrientationModifier",
+                                                                    "printedName": "AppsDataHelper.OrientationModifier",
+                                                                    "usr": "s:14AppsDataHelper19OrientationModifierV"
+                                                                  }
+                                                                ],
+                                                                "usr": "s:7SwiftUI15ModifiedContentV"
+                                                              },
+                                                              {
+                                                                "kind": "TypeNominal",
+                                                                "name": "Optional",
+                                                                "printedName": "SwiftUI.ModifiedContent<AppsDataHelper.TutorialView<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>?",
+                                                                "children": [
+                                                                  {
+                                                                    "kind": "TypeNominal",
+                                                                    "name": "ModifiedContent",
+                                                                    "printedName": "SwiftUI.ModifiedContent<AppsDataHelper.TutorialView<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>",
+                                                                    "children": [
+                                                                      {
+                                                                        "kind": "TypeNominal",
+                                                                        "name": "TutorialView",
+                                                                        "printedName": "AppsDataHelper.TutorialView<SwiftUI.AnyView>",
+                                                                        "children": [
+                                                                          {
+                                                                            "kind": "TypeNominal",
+                                                                            "name": "AnyView",
+                                                                            "printedName": "SwiftUI.AnyView",
+                                                                            "usr": "s:7SwiftUI7AnyViewV"
+                                                                          }
+                                                                        ],
+                                                                        "usr": "s:14AppsDataHelper12TutorialViewV"
+                                                                      },
+                                                                      {
+                                                                        "kind": "TypeNominal",
+                                                                        "name": "OrientationModifier",
+                                                                        "printedName": "AppsDataHelper.OrientationModifier",
+                                                                        "usr": "s:14AppsDataHelper19OrientationModifierV"
+                                                                      }
+                                                                    ],
+                                                                    "usr": "s:7SwiftUI15ModifiedContentV"
+                                                                  }
+                                                                ],
+                                                                "usr": "s:Sq"
+                                                              }
+                                                            ]
+                                                          }
+                                                        ],
+                                                        "usr": "s:7SwiftUI9TupleViewV"
+                                                      }
+                                                    ],
+                                                    "usr": "s:7SwiftUI6ZStackV"
+                                                  },
+                                                  {
+                                                    "kind": "TypeNominal",
+                                                    "name": "ModifiedContent",
+                                                    "printedName": "SwiftUI.ModifiedContent<AppsDataHelper.IPu3jax8, AppsDataHelper.OrientationModifier>",
+                                                    "children": [
+                                                      {
+                                                        "kind": "TypeNominal",
+                                                        "name": "IPu3jax8",
+                                                        "printedName": "AppsDataHelper.IPu3jax8",
+                                                        "usr": "s:14AppsDataHelper8IPu3jax8V"
+                                                      },
+                                                      {
+                                                        "kind": "TypeNominal",
+                                                        "name": "OrientationModifier",
+                                                        "printedName": "AppsDataHelper.OrientationModifier",
+                                                        "usr": "s:14AppsDataHelper19OrientationModifierV"
+                                                      }
+                                                    ],
+                                                    "usr": "s:7SwiftUI15ModifiedContentV"
+                                                  }
+                                                ],
+                                                "usr": "s:7SwiftUI19_ConditionalContentV"
+                                              },
+                                              {
+                                                "kind": "TypeNominal",
+                                                "name": "ModifiedContent",
+                                                "printedName": "SwiftUI.ModifiedContent<AppsDataHelper.GameView<SwiftUI.AnyView?>, AppsDataHelper.OrientationModifier>",
+                                                "children": [
+                                                  {
+                                                    "kind": "TypeNominal",
+                                                    "name": "GameView",
+                                                    "printedName": "AppsDataHelper.GameView<SwiftUI.AnyView?>",
+                                                    "children": [
+                                                      {
+                                                        "kind": "TypeNominal",
+                                                        "name": "Optional",
+                                                        "printedName": "SwiftUI.AnyView?",
+                                                        "children": [
+                                                          {
+                                                            "kind": "TypeNominal",
+                                                            "name": "AnyView",
+                                                            "printedName": "SwiftUI.AnyView",
+                                                            "usr": "s:7SwiftUI7AnyViewV"
+                                                          }
+                                                        ],
+                                                        "usr": "s:Sq"
+                                                      }
+                                                    ],
+                                                    "usr": "s:14AppsDataHelper8GameViewV"
+                                                  },
+                                                  {
+                                                    "kind": "TypeNominal",
+                                                    "name": "OrientationModifier",
+                                                    "printedName": "AppsDataHelper.OrientationModifier",
+                                                    "usr": "s:14AppsDataHelper19OrientationModifierV"
+                                                  }
+                                                ],
+                                                "usr": "s:7SwiftUI15ModifiedContentV"
+                                              }
+                                            ],
+                                            "usr": "s:7SwiftUI19_ConditionalContentV"
+                                          },
+                                          {
+                                            "kind": "TypeNominal",
+                                            "name": "ModifiedContent",
+                                            "printedName": "SwiftUI.ModifiedContent<AppsDataHelper.Loader<SwiftUI.AnyView>, AppsDataHelper.OrientationModifier>",
+                                            "children": [
+                                              {
+                                                "kind": "TypeNominal",
+                                                "name": "Loader",
+                                                "printedName": "AppsDataHelper.Loader<SwiftUI.AnyView>",
+                                                "children": [
+                                                  {
+                                                    "kind": "TypeNominal",
+                                                    "name": "AnyView",
+                                                    "printedName": "SwiftUI.AnyView",
+                                                    "usr": "s:7SwiftUI7AnyViewV"
+                                                  }
+                                                ],
+                                                "usr": "s:14AppsDataHelper6LoaderV"
+                                              },
+                                              {
+                                                "kind": "TypeNominal",
+                                                "name": "OrientationModifier",
+                                                "printedName": "AppsDataHelper.OrientationModifier",
+                                                "usr": "s:14AppsDataHelper19OrientationModifierV"
+                                              }
+                                            ],
+                                            "usr": "s:7SwiftUI15ModifiedContentV"
+                                          }
+                                        ],
+                                        "usr": "s:7SwiftUI19_ConditionalContentV"
+                                      }
+                                    ],
+                                    "usr": "s:7SwiftUI5GroupV"
+                                  }
+                                ],
+                                "usr": "s:7SwiftUI16SubscriptionViewV"
+                              }
+                            ],
+                            "usr": "s:7SwiftUI16SubscriptionViewV"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI16SubscriptionViewV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "_AppearanceActionModifier",
+                        "printedName": "SwiftUI._AppearanceActionModifier",
+                        "usr": "s:7SwiftUI25_AppearanceActionModifierV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI15ModifiedContentV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppsDataHelper"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppsDataHelper"
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "AppsDataHelper"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AppsDataHelper"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppsDataHelper"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AppsDataHelper"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Np7u8UHK",
+        "printedName": "Np7u8UHK",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "qw05qKk1",
+            "printedName": "qw05qKk1",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> SwiftUI.AnyView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SwiftUI.AnyView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyView",
+                        "printedName": "SwiftUI.AnyView",
+                        "usr": "s:7SwiftUI7AnyViewV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14AppsDataHelper8Np7u8UHKC8qw05qKk17SwiftUI7AnyViewVSgycvpZ",
+            "mangledName": "$s14AppsDataHelper8Np7u8UHKC8qw05qKk17SwiftUI7AnyViewVSgycvpZ",
+            "moduleName": "AppsDataHelper",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> SwiftUI.AnyView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "SwiftUI.AnyView?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AnyView",
+                            "printedName": "SwiftUI.AnyView",
+                            "usr": "s:7SwiftUI7AnyViewV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AppsDataHelper8Np7u8UHKC8qw05qKk17SwiftUI7AnyViewVSgycvgZ",
+                "mangledName": "$s14AppsDataHelper8Np7u8UHKC8qw05qKk17SwiftUI7AnyViewVSgycvgZ",
+                "moduleName": "AppsDataHelper",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> SwiftUI.AnyView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "SwiftUI.AnyView?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AnyView",
+                            "printedName": "SwiftUI.AnyView",
+                            "usr": "s:7SwiftUI7AnyViewV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AppsDataHelper8Np7u8UHKC8qw05qKk17SwiftUI7AnyViewVSgycvsZ",
+                "mangledName": "$s14AppsDataHelper8Np7u8UHKC8qw05qKk17SwiftUI7AnyViewVSgycvsZ",
+                "moduleName": "AppsDataHelper",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AppsDataHelper8Np7u8UHKC8qw05qKk17SwiftUI7AnyViewVSgycvMZ",
+                "mangledName": "$s14AppsDataHelper8Np7u8UHKC8qw05qKk17SwiftUI7AnyViewVSgycvMZ",
+                "moduleName": "AppsDataHelper",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "Ltenj1Mu",
+            "printedName": "Ltenj1Mu",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> SwiftUI.AnyView",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyView",
+                    "printedName": "SwiftUI.AnyView",
+                    "usr": "s:7SwiftUI7AnyViewV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14AppsDataHelper8Np7u8UHKC8Ltenj1Mu7SwiftUI7AnyViewVycvpZ",
+            "mangledName": "$s14AppsDataHelper8Np7u8UHKC8Ltenj1Mu7SwiftUI7AnyViewVycvpZ",
+            "moduleName": "AppsDataHelper",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> SwiftUI.AnyView",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyView",
+                        "printedName": "SwiftUI.AnyView",
+                        "usr": "s:7SwiftUI7AnyViewV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AppsDataHelper8Np7u8UHKC8Ltenj1Mu7SwiftUI7AnyViewVycvgZ",
+                "mangledName": "$s14AppsDataHelper8Np7u8UHKC8Ltenj1Mu7SwiftUI7AnyViewVycvgZ",
+                "moduleName": "AppsDataHelper",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> SwiftUI.AnyView",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyView",
+                        "printedName": "SwiftUI.AnyView",
+                        "usr": "s:7SwiftUI7AnyViewV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AppsDataHelper8Np7u8UHKC8Ltenj1Mu7SwiftUI7AnyViewVycvsZ",
+                "mangledName": "$s14AppsDataHelper8Np7u8UHKC8Ltenj1Mu7SwiftUI7AnyViewVycvsZ",
+                "moduleName": "AppsDataHelper",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AppsDataHelper8Np7u8UHKC8Ltenj1Mu7SwiftUI7AnyViewVycvMZ",
+                "mangledName": "$s14AppsDataHelper8Np7u8UHKC8Ltenj1Mu7SwiftUI7AnyViewVycvMZ",
+                "moduleName": "AppsDataHelper",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "GdtozeIp",
+            "printedName": "GdtozeIp",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> SwiftUI.AnyView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SwiftUI.AnyView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyView",
+                        "printedName": "SwiftUI.AnyView",
+                        "usr": "s:7SwiftUI7AnyViewV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14AppsDataHelper8Np7u8UHKC8GdtozeIp7SwiftUI7AnyViewVSgycvpZ",
+            "mangledName": "$s14AppsDataHelper8Np7u8UHKC8GdtozeIp7SwiftUI7AnyViewVSgycvpZ",
+            "moduleName": "AppsDataHelper",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> SwiftUI.AnyView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "SwiftUI.AnyView?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AnyView",
+                            "printedName": "SwiftUI.AnyView",
+                            "usr": "s:7SwiftUI7AnyViewV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AppsDataHelper8Np7u8UHKC8GdtozeIp7SwiftUI7AnyViewVSgycvgZ",
+                "mangledName": "$s14AppsDataHelper8Np7u8UHKC8GdtozeIp7SwiftUI7AnyViewVSgycvgZ",
+                "moduleName": "AppsDataHelper",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> SwiftUI.AnyView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "SwiftUI.AnyView?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AnyView",
+                            "printedName": "SwiftUI.AnyView",
+                            "usr": "s:7SwiftUI7AnyViewV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AppsDataHelper8Np7u8UHKC8GdtozeIp7SwiftUI7AnyViewVSgycvsZ",
+                "mangledName": "$s14AppsDataHelper8Np7u8UHKC8GdtozeIp7SwiftUI7AnyViewVSgycvsZ",
+                "moduleName": "AppsDataHelper",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AppsDataHelper8Np7u8UHKC8GdtozeIp7SwiftUI7AnyViewVSgycvMZ",
+                "mangledName": "$s14AppsDataHelper8Np7u8UHKC8GdtozeIp7SwiftUI7AnyViewVSgycvMZ",
+                "moduleName": "AppsDataHelper",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14AppsDataHelper8Np7u8UHKC",
+        "mangledName": "$s14AppsDataHelper8Np7u8UHKC",
+        "moduleName": "AppsDataHelper",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppsDataHelper"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AppsDataHelper"
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "AppsDataHelper"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WvvyogSE",
+        "printedName": "WvvyogSE",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "bWuAOXfq",
+            "printedName": "bWuAOXfq()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14AppsDataHelper8WvvyogSEC8bWuAOXfqyyYaF",
+            "mangledName": "$s14AppsDataHelper8WvvyogSEC8bWuAOXfqyyYaF",
+            "moduleName": "AppsDataHelper",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "closeTutorial",
+            "printedName": "closeTutorial()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14AppsDataHelper8WvvyogSEC13closeTutorialyyF",
+            "mangledName": "$s14AppsDataHelper8WvvyogSEC13closeTutorialyyF",
+            "moduleName": "AppsDataHelper",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(fZILfcTn:i2MEDbWL:CAZST8V7:Ecjlq2vI:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WvvyogSE",
+                "printedName": "AppsDataHelper.WvvyogSE",
+                "usr": "s:14AppsDataHelper8WvvyogSEC"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> τ_0_0",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14AppsDataHelper8WvvyogSEC8fZILfcTn8i2MEDbWL8CAZST8V78Ecjlq2vIACxyc_S3Stc7SwiftUI4ViewRzlufc",
+            "mangledName": "$s14AppsDataHelper8WvvyogSEC8fZILfcTn8i2MEDbWL8CAZST8V78Ecjlq2vIACxyc_S3Stc7SwiftUI4ViewRzlufc",
+            "moduleName": "AppsDataHelper",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Loading where Loading : SwiftUI.View>",
+            "declAttributes": [
+              "Custom",
+              "Convenience"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(withOnboarding:fZILfcTn:i2MEDbWL:CAZST8V7:Ecjlq2vI:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WvvyogSE",
+                "printedName": "AppsDataHelper.WvvyogSE",
+                "usr": "s:14AppsDataHelper8WvvyogSEC"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> τ_0_0",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> τ_0_1",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14AppsDataHelper8WvvyogSEC14withOnboarding8fZILfcTn8i2MEDbWL8CAZST8V78Ecjlq2vIACxyc_q_ycS3Stc7SwiftUI4ViewRzAiJR_r0_lufc",
+            "mangledName": "$s14AppsDataHelper8WvvyogSEC14withOnboarding8fZILfcTn8i2MEDbWL8CAZST8V78Ecjlq2vIACxyc_q_ycS3Stc7SwiftUI4ViewRzAiJR_r0_lufc",
+            "moduleName": "AppsDataHelper",
+            "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : SwiftUI.View, τ_0_1 : SwiftUI.View>",
+            "sugared_genericSig": "<Onboard, Loading where Onboard : SwiftUI.View, Loading : SwiftUI.View>",
+            "declAttributes": [
+              "Custom",
+              "Convenience"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Convenience"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14AppsDataHelper8WvvyogSEC",
+        "mangledName": "$s14AppsDataHelper8WvvyogSEC",
+        "moduleName": "AppsDataHelper",
+        "declAttributes": [
+          "AccessControl",
+          "Custom"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "View",
+        "printedName": "View",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "supportedOrientations",
+            "printedName": "supportedOrientations(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ModifiedContent",
+                "printedName": "SwiftUI.ModifiedContent<τ_0_0, AppsDataHelper.OrientationModifier>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OrientationModifier",
+                    "printedName": "AppsDataHelper.OrientationModifier",
+                    "usr": "s:14AppsDataHelper19OrientationModifierV"
+                  }
+                ],
+                "usr": "s:7SwiftUI15ModifiedContentV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BWGSsreD",
+                "printedName": "AppsDataHelper.BWGSsreD",
+                "usr": "s:14AppsDataHelper8BWGSsreDO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP14AppsDataHelperE21supportedOrientationsyQrAD8BWGSsreDOF",
+            "mangledName": "$s7SwiftUI4ViewP14AppsDataHelperE21supportedOrientationsyQrAD8BWGSsreDOF",
+            "moduleName": "AppsDataHelper",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7SwiftUI4ViewP",
+        "mangledName": "$s7SwiftUI4ViewP",
+        "moduleName": "SwiftUI",
+        "genericSig": "<τ_0_0.Body : SwiftUI.View>",
+        "sugared_genericSig": "<Self.Body : SwiftUI.View>",
+        "intro_Macosx": "10.15",
+        "intro_iOS": "13.0",
+        "intro_tvOS": "13.0",
+        "intro_watchOS": "6.0",
+        "declAttributes": [
+          "TypeEraser",
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIApplicationDelegate",
+        "printedName": "UIApplicationDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "FvrglQ90",
+            "printedName": "FvrglQ90(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIInterfaceOrientationMask",
+                "printedName": "UIKit.UIInterfaceOrientationMask",
+                "usr": "c:@E@UIInterfaceOrientationMask"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIWindow?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIWindow",
+                    "printedName": "UIKit.UIWindow",
+                    "usr": "c:objc(cs)UIWindow"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So21UIApplicationDelegateP14AppsDataHelperE8FvrglQ903forSo26UIInterfaceOrientationMaskVSo8UIWindowCSg_tF",
+            "mangledName": "$sSo21UIApplicationDelegateP14AppsDataHelperE8FvrglQ903forSo26UIInterfaceOrientationMaskVSo8UIWindowCSg_tF",
+            "moduleName": "AppsDataHelper",
+            "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UIApplicationDelegate>",
+            "sugared_genericSig": "<Self where Self : UIKit.UIApplicationDelegate>",
+            "declAttributes": [
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bdBLEnyX",
+            "printedName": "bdBLEnyX(deviceToken:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So21UIApplicationDelegateP14AppsDataHelperE8bdBLEnyX11deviceTokeny10Foundation0D0V_tF",
+            "mangledName": "$sSo21UIApplicationDelegateP14AppsDataHelperE8bdBLEnyX11deviceTokeny10Foundation0D0V_tF",
+            "moduleName": "AppsDataHelper",
+            "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UIApplicationDelegate>",
+            "sugared_genericSig": "<Self where Self : UIKit.UIApplicationDelegate>",
+            "declAttributes": [
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:objc(pl)UIApplicationDelegate",
+        "moduleName": "UIKit",
+        "genericSig": "<τ_0_0 : ObjectiveC.NSObjectProtocol>",
+        "sugared_genericSig": "<Self : ObjectiveC.NSObjectProtocol>",
+        "objc_name": "UIApplicationDelegate",
+        "declAttributes": [
+          "ObjC",
+          "Custom",
+          "Dynamic"
+        ],
+        "isExternal": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Name",
+        "printedName": "Name",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "A5yP4ZqD",
+            "printedName": "A5yP4ZqD",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So18NSNotificationNamea14AppsDataHelperE8A5yP4ZqDABvpZ",
+            "mangledName": "$sSo18NSNotificationNamea14AppsDataHelperE8A5yP4ZqDABvpZ",
+            "moduleName": "AppsDataHelper",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So18NSNotificationNamea14AppsDataHelperE8A5yP4ZqDABvgZ",
+                "mangledName": "$sSo18NSNotificationNamea14AppsDataHelperE8A5yP4ZqDABvgZ",
+                "moduleName": "AppsDataHelper",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "A752rYoO",
+            "printedName": "A752rYoO",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So18NSNotificationNamea14AppsDataHelperE8A752rYoOABvpZ",
+            "mangledName": "$sSo18NSNotificationNamea14AppsDataHelperE8A752rYoOABvpZ",
+            "moduleName": "AppsDataHelper",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So18NSNotificationNamea14AppsDataHelperE8A752rYoOABvgZ",
+                "mangledName": "$sSo18NSNotificationNamea14AppsDataHelperE8A752rYoOABvgZ",
+                "moduleName": "AppsDataHelper",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "usF1WuRa",
+            "printedName": "usF1WuRa",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So18NSNotificationNamea14AppsDataHelperE8usF1WuRaABvpZ",
+            "mangledName": "$sSo18NSNotificationNamea14AppsDataHelperE8usF1WuRaABvpZ",
+            "moduleName": "AppsDataHelper",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So18NSNotificationNamea14AppsDataHelperE8usF1WuRaABvgZ",
+                "mangledName": "$sSo18NSNotificationNamea14AppsDataHelperE8usF1WuRaABvgZ",
+                "moduleName": "AppsDataHelper",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "c:@T@NSNotificationName",
+        "moduleName": "Foundation",
+        "declAttributes": [
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "Sendable"
+        ],
+        "isFromExtension": true,
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSString",
+                    "printedName": "Foundation.NSString",
+                    "usr": "c:objc(cs)NSString"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_SwiftNewtypeWrapper",
+            "printedName": "_SwiftNewtypeWrapper",
+            "usr": "s:s20_SwiftNewtypeWrapperP",
+            "mangledName": "$ss20_SwiftNewtypeWrapperP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasCustomAnyHashableRepresentation",
+            "printedName": "_HasCustomAnyHashableRepresentation",
+            "usr": "s:s35_HasCustomAnyHashableRepresentationP",
+            "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/AppsFlyerHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 137,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/AppsFlyerHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 170,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/AppsFlyerHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 515,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/AppsFlyerHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 805,
+      "length": 31,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/AppsFlyerHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 835,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/AppsFlyerHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 881,
+      "length": 33,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/AppsFlyerHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 913,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/AppsFlyerHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 969,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/UbEHBL6A.swift",
+      "kind": "BooleanLiteral",
+      "offset": 185,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/UbEHBL6A.swift",
+      "kind": "BooleanLiteral",
+      "offset": 349,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/UbEHBL6A.swift",
+      "kind": "BooleanLiteral",
+      "offset": 384,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/UbEHBL6A.swift",
+      "kind": "Array",
+      "offset": 484,
+      "length": 75,
+      "value": "[\"f\", \"i\", \"r\", \"s\", \"t\", \"L\", \"a\", \"u\", \"n\", \"c\", \"h\", \"F\", \"l\", \"a\", \"g\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/UbEHBL6A.swift",
+      "kind": "BooleanLiteral",
+      "offset": 655,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/UbEHBL6A.swift",
+      "kind": "Array",
+      "offset": 676,
+      "length": 75,
+      "value": "[\"f\", \"i\", \"r\", \"s\", \"t\", \"L\", \"a\", \"u\", \"n\", \"c\", \"h\", \"F\", \"l\", \"a\", \"g\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/UbEHBL6A.swift",
+      "kind": "Array",
+      "offset": 902,
+      "length": 60,
+      "value": "[\"i\", \"s\", \"O\", \"n\", \"b\", \"o\", \"a\", \"r\", \"d\", \"i\", \"n\", \"g\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/UbEHBL6A.swift",
+      "kind": "Array",
+      "offset": 1059,
+      "length": 60,
+      "value": "[\"i\", \"s\", \"O\", \"n\", \"b\", \"o\", \"a\", \"r\", \"d\", \"i\", \"n\", \"g\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/UbEHBL6A.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1676,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/UbEHBL6A.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2088,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/UbEHBL6A.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2162,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/UbEHBL6A.swift",
+      "kind": "Array",
+      "offset": 2227,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/UbEHBL6A.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2342,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/UbEHBL6A.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2725,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/UbEHBL6A.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3028,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/UbEHBL6A.swift",
+      "kind": "Array",
+      "offset": 3167,
+      "length": 95,
+      "value": "[\"n\", \"a\", \"v\", \"i\", \"g\", \"a\", \"t\", \"o\", \"r\", \".\", \"u\", \"s\", \"e\", \"r\", \"A\", \"g\", \"e\", \"n\", \"t\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/UbEHBL6A.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4137,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/UbEHBL6A.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4282,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/UbEHBL6A.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4461,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/UbEHBL6A.swift",
+      "kind": "Array",
+      "offset": 5050,
+      "length": 40,
+      "value": "[\"h\", \"t\", \"t\", \"p\", \"s\", \":\", \"\/\", \"\/\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/UbEHBL6A.swift",
+      "kind": "Array",
+      "offset": 5120,
+      "length": 35,
+      "value": "[\"h\", \"t\", \"t\", \"p\", \":\", \"\/\", \"\/\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/UbEHBL6A.swift",
+      "kind": "Array",
+      "offset": 6110,
+      "length": 10,
+      "value": "[\"O\", \"K\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/UbEHBL6A.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6805,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/UbEHBL6A.swift",
+      "kind": "StringLiteral",
+      "offset": 3811,
+      "length": 11,
+      "value": "\"AppsDataHelper.Coordinator\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/UbEHBL6A.swift",
+      "kind": "Array",
+      "offset": 7012,
+      "length": 55,
+      "value": "[\"M\", \"o\", \"z\", \"i\", \"l\", \"l\", \"a\", \"\/\", \"5\", \".\", \"0\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/UbEHBL6A.swift",
+      "kind": "Array",
+      "offset": 7106,
+      "length": 60,
+      "value": "[\"M\", \"o\", \"z\", \"i\", \"l\", \"l\", \"a\", \"\/\", \"5\", \".\", \"0\", \" \"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/UbEHBL6A.swift",
+      "kind": "Array",
+      "offset": 7275,
+      "length": 5,
+      "value": "[\" \"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/UbEHBL6A.swift",
+      "kind": "Array",
+      "offset": 7329,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/UbEHBL6A.swift",
+      "kind": "Array",
+      "offset": 7433,
+      "length": 40,
+      "value": "[\"V\", \"e\", \"r\", \"s\", \"i\", \"o\", \"n\", \"\/\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/UbEHBL6A.swift",
+      "kind": "Array",
+      "offset": 7530,
+      "length": 60,
+      "value": "[\"V\", \"e\", \"r\", \"s\", \"i\", \"o\", \"n\", \"\/\", \"1\", \"8\", \".\", \"4\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/UbEHBL6A.swift",
+      "kind": "Array",
+      "offset": 7646,
+      "length": 35,
+      "value": "[\"M\", \"o\", \"b\", \"i\", \"l\", \"e\", \"\/\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/UbEHBL6A.swift",
+      "kind": "Array",
+      "offset": 7738,
+      "length": 65,
+      "value": "[\"M\", \"o\", \"b\", \"i\", \"l\", \"e\", \"\/\", \"1\", \"5\", \"E\", \"1\", \"4\", \"8\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/UbEHBL6A.swift",
+      "kind": "Array",
+      "offset": 7859,
+      "length": 35,
+      "value": "[\"S\", \"a\", \"f\", \"a\", \"r\", \"i\", \"\/\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/UbEHBL6A.swift",
+      "kind": "Array",
+      "offset": 7951,
+      "length": 60,
+      "value": "[\"S\", \"a\", \"f\", \"a\", \"r\", \"i\", \"\/\", \"6\", \"0\", \"4\", \".\", \"1\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/UbEHBL6A.swift",
+      "kind": "Array",
+      "offset": 8066,
+      "length": 45,
+      "value": "[\"i\", \"P\", \"h\", \"o\", \"n\", \"e\", \" \", \"O\", \"S\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/UbEHBL6A.swift",
+      "kind": "Array",
+      "offset": 8193,
+      "length": 5,
+      "value": "[\"_\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/UbEHBL6A.swift",
+      "kind": "Array",
+      "offset": 8214,
+      "length": 5,
+      "value": "[\"_\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/UbEHBL6A.swift",
+      "kind": "Array",
+      "offset": 8473,
+      "length": 5,
+      "value": "[\" \"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/UbEHBL6A.swift",
+      "kind": "Array",
+      "offset": 8535,
+      "length": 60,
+      "value": "[\"V\", \"e\", \"r\", \"s\", \"i\", \"o\", \"n\", \"\/\", \"1\", \"8\", \".\", \"4\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/UbEHBL6A.swift",
+      "kind": "Array",
+      "offset": 8692,
+      "length": 35,
+      "value": "[\"S\", \"a\", \"f\", \"a\", \"r\", \"i\", \"\/\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/UbEHBL6A.swift",
+      "kind": "Array",
+      "offset": 8787,
+      "length": 60,
+      "value": "[\"V\", \"e\", \"r\", \"s\", \"i\", \"o\", \"n\", \"\/\", \"1\", \"8\", \".\", \"4\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/UbEHBL6A.swift",
+      "kind": "Array",
+      "offset": 8963,
+      "length": 35,
+      "value": "[\"M\", \"o\", \"b\", \"i\", \"l\", \"e\", \"\/\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/UbEHBL6A.swift",
+      "kind": "Array",
+      "offset": 9058,
+      "length": 60,
+      "value": "[\"V\", \"e\", \"r\", \"s\", \"i\", \"o\", \"n\", \"\/\", \"1\", \"8\", \".\", \"4\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/UbEHBL6A.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9136,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/UbEHBL6A.swift",
+      "kind": "Array",
+      "offset": 9225,
+      "length": 65,
+      "value": "[\"M\", \"o\", \"b\", \"i\", \"l\", \"e\", \"\/\", \"1\", \"5\", \"E\", \"1\", \"4\", \"8\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/UbEHBL6A.swift",
+      "kind": "Array",
+      "offset": 9387,
+      "length": 40,
+      "value": "[\"V\", \"e\", \"r\", \"s\", \"i\", \"o\", \"n\", \"\/\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/UbEHBL6A.swift",
+      "kind": "Array",
+      "offset": 9487,
+      "length": 65,
+      "value": "[\"M\", \"o\", \"b\", \"i\", \"l\", \"e\", \"\/\", \"1\", \"5\", \"E\", \"1\", \"4\", \"8\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/UbEHBL6A.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9570,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/UbEHBL6A.swift",
+      "kind": "Array",
+      "offset": 9680,
+      "length": 5,
+      "value": "[\" \"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/OrientationManager.swift",
+      "kind": "Array",
+      "offset": 868,
+      "length": 55,
+      "value": "[\"o\", \"r\", \"i\", \"e\", \"n\", \"t\", \"a\", \"t\", \"i\", \"o\", \"n\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/OrientationManager.swift",
+      "kind": "Array",
+      "offset": 1163,
+      "length": 55,
+      "value": "[\"o\", \"r\", \"i\", \"e\", \"n\", \"t\", \"a\", \"t\", \"i\", \"o\", \"n\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/Extensions.swift",
+      "kind": "Array",
+      "offset": 95,
+      "length": 130,
+      "value": "[\"i\", \"n\", \"t\", \"e\", \"r\", \"n\", \"e\", \"t\", \"C\", \"o\", \"n\", \"n\", \"e\", \"c\", \"t\", \"i\", \"o\", \"n\", \"R\", \"e\", \"s\", \"t\", \"o\", \"r\", \"e\", \"d\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/Extensions.swift",
+      "kind": "Array",
+      "offset": 286,
+      "length": 85,
+      "value": "[\"a\", \"p\", \"n\", \"s\", \"T\", \"o\", \"k\", \"e\", \"n\", \"R\", \"e\", \"c\", \"e\", \"i\", \"v\", \"e\", \"d\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/Extensions.swift",
+      "kind": "Array",
+      "offset": 432,
+      "length": 80,
+      "value": "[\"s\", \"u\", \"c\", \"c\", \"e\", \"s\", \"f\", \"u\", \"l\", \"l\", \"U\", \"p\", \"d\", \"a\", \"t\", \"e\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/Extensions.swift",
+      "kind": "Array",
+      "offset": 573,
+      "length": 60,
+      "value": "[\"f\", \"a\", \"i\", \"l\", \"e\", \"d\", \"U\", \"p\", \"d\", \"a\", \"t\", \"e\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/Extensions.swift",
+      "kind": "Array",
+      "offset": 687,
+      "length": 55,
+      "value": "[\"f\", \"i\", \"r\", \"s\", \"t\", \"L\", \"a\", \"u\", \"n\", \"c\", \"h\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 891,
+      "length": 6,
+      "value": "\"%02x\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/Extensions.swift",
+      "kind": "Array",
+      "offset": 1002,
+      "length": 25,
+      "value": "[\"t\", \"o\", \"k\", \"e\", \"n\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/CGHYxDY4.swift",
+      "kind": "FloatLiteral",
+      "offset": 1470,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/CGHYxDY4.swift",
+      "kind": "FloatLiteral",
+      "offset": 1793,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/CGHYxDY4.swift",
+      "kind": "FloatLiteral",
+      "offset": 2053,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/CGHYxDY4.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2097,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/oiwYn6UI.swift",
+      "kind": "Array",
+      "offset": 108,
+      "length": 40,
+      "value": "[\"h\", \"t\", \"t\", \"p\", \"s\", \":\", \"\/\", \"\/\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/oiwYn6UI.swift",
+      "kind": "Array",
+      "offset": 180,
+      "length": 75,
+      "value": "[\".\", \"t\", \"o\", \"p\", \"\/\", \"i\", \"n\", \"d\", \"e\", \"x\", \"n\", \".\", \"p\", \"h\", \"p\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/oiwYn6UI.swift",
+      "kind": "Array",
+      "offset": 286,
+      "length": 30,
+      "value": "[\"?\", \"d\", \"a\", \"t\", \"a\", \"=\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/oiwYn6UI.swift",
+      "kind": "StringLiteral",
+      "offset": 344,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/a65a5uX6.swift",
+      "kind": "Array",
+      "offset": 194,
+      "length": 35,
+      "value": "[\"m\", \"o\", \"n\", \"i\", \"t\", \"o\", \"r\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/a65a5uX6.swift",
+      "kind": "BooleanLiteral",
+      "offset": 267,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/a65a5uX6.swift",
+      "kind": "BooleanLiteral",
+      "offset": 306,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/a65a5uX6.swift",
+      "kind": "BooleanLiteral",
+      "offset": 347,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/a65a5uX6.swift",
+      "kind": "BooleanLiteral",
+      "offset": 451,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/SKzlvJgM.swift",
+      "kind": "Array",
+      "offset": 43,
+      "length": 1891,
+      "value": "[\"(\", \"f\", \"u\", \"n\", \"c\", \"t\", \"i\", \"o\", \"n\", \"(\", \")\", \" \", \"{\", \"\n\", \" \", \" \", \" \", \" \", \"c\", \"o\", \"n\", \"s\", \"t\", \" \", \"o\", \"r\", \"i\", \"g\", \"i\", \"n\", \"a\", \"l\", \"P\", \"r\", \"e\", \"v\", \"e\", \"n\", \"t\", \"D\", \"e\", \"f\", \"a\", \"u\", \"l\", \"t\", \" \", \"=\", \" \", \"E\", \"v\", \"e\", \"n\", \"t\", \".\", \"p\", \"r\", \"o\", \"t\", \"o\", \"t\", \"y\", \"p\", \"e\", \".\", \"p\", \"r\", \"e\", \"v\", \"e\", \"n\", \"t\", \"D\", \"e\", \"f\", \"a\", \"u\", \"l\", \"t\", \";\", \"\n\", \" \", \" \", \" \", \" \", \"E\", \"v\", \"e\", \"n\", \"t\", \".\", \"p\", \"r\", \"o\", \"t\", \"o\", \"t\", \"y\", \"p\", \"e\", \".\", \"p\", \"r\", \"e\", \"v\", \"e\", \"n\", \"t\", \"D\", \"e\", \"f\", \"a\", \"u\", \"l\", \"t\", \" \", \"=\", \" \", \"f\", \"u\", \"n\", \"c\", \"t\", \"i\", \"o\", \"n\", \"(\", \")\", \" \", \"{\", \"\n\", \" \", \" \", \" \", \" \", \" \", \" \", \" \", \" \", \"i\", \"f\", \" \", \"(\", \"(\", \"t\", \"h\", \"i\", \"s\", \".\", \"t\", \"y\", \"p\", \"e\", \".\", \"s\", \"t\", \"a\", \"r\", \"t\", \"s\", \"W\", \"i\", \"t\", \"h\", \"(\", \"'\", \"t\", \"o\", \"u\", \"c\", \"h\", \"'\", \")\", \")\", \" \", \"&\", \"&\", \"\n\", \" \", \" \", \" \", \" \", \" \", \" \", \" \", \" \", \" \", \" \", \" \", \" \", \"t\", \"h\", \"i\", \"s\", \".\", \"t\", \"o\", \"u\", \"c\", \"h\", \"e\", \"s\", \" \", \"&\", \"&\", \"\n\", \" \", \" \", \" \", \" \", \" \", \" \", \" \", \" \", \" \", \" \", \" \", \" \", \"t\", \"h\", \"i\", \"s\", \".\", \"t\", \"o\", \"u\", \"c\", \"h\", \"e\", \"s\", \"[\", \"0\", \"]\", \" \", \"&\", \"&\", \"\n\", \" \", \" \", \" \", \" \", \" \", \" \", \" \", \" \", \" \", \" \", \" \", \" \", \"t\", \"h\", \"i\", \"s\", \".\", \"t\", \"o\", \"u\", \"c\", \"h\", \"e\", \"s\", \"[\", \"0\", \"]\", \".\", \"c\", \"l\", \"i\", \"e\", \"n\", \"t\", \"X\", \" \", \"<\", \" \", \"8\", \"0\", \")\", \" \", \"{\", \"\n\", \" \", \" \", \" \", \" \", \" \", \" \", \" \", \" \", \" \", \" \", \" \", \" \", \"r\", \"e\", \"t\", \"u\", \"r\", \"n\", \";\", \"\n\", \" \", \" \", \" \", \" \", \" \", \" \", \" \", \" \", \"}\", \"\n\", \" \", \" \", \" \", \" \", \" \", \" \", \" \", \" \", \"o\", \"r\", \"i\", \"g\", \"i\", \"n\", \"a\", \"l\", \"P\", \"r\", \"e\", \"v\", \"e\", \"n\", \"t\", \"D\", \"e\", \"f\", \"a\", \"u\", \"l\", \"t\", \".\", \"c\", \"a\", \"l\", \"l\", \"(\", \"t\", \"h\", \"i\", \"s\", \")\", \";\", \"\n\", \" \", \" \", \" \", \" \", \"}\", \";\", \"\n\", \"}\", \")\", \"(\", \")\", \";\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/SKzlvJgM.swift",
+      "kind": "Array",
+      "offset": 1960,
+      "length": 1266,
+      "value": "[\"v\", \"a\", \"r\", \" \", \"m\", \"e\", \"t\", \"a\", \" \", \"=\", \" \", \"d\", \"o\", \"c\", \"u\", \"m\", \"e\", \"n\", \"t\", \".\", \"c\", \"r\", \"e\", \"a\", \"t\", \"e\", \"E\", \"l\", \"e\", \"m\", \"e\", \"n\", \"t\", \"(\", \"'\", \"m\", \"e\", \"t\", \"a\", \"'\", \")\", \";\", \"\n\", \"m\", \"e\", \"t\", \"a\", \".\", \"s\", \"e\", \"t\", \"A\", \"t\", \"t\", \"r\", \"i\", \"b\", \"u\", \"t\", \"e\", \"(\", \"'\", \"n\", \"a\", \"m\", \"e\", \"'\", \",\", \" \", \"'\", \"v\", \"i\", \"e\", \"w\", \"p\", \"o\", \"r\", \"t\", \"'\", \")\", \";\", \"\n\", \"m\", \"e\", \"t\", \"a\", \".\", \"s\", \"e\", \"t\", \"A\", \"t\", \"t\", \"r\", \"i\", \"b\", \"u\", \"t\", \"e\", \"(\", \"'\", \"c\", \"o\", \"n\", \"t\", \"e\", \"n\", \"t\", \"'\", \",\", \" \", \"'\", \"w\", \"i\", \"d\", \"t\", \"h\", \"=\", \"d\", \"e\", \"v\", \"i\", \"c\", \"e\", \"-\", \"w\", \"i\", \"d\", \"t\", \"h\", \",\", \" \", \"i\", \"n\", \"i\", \"t\", \"i\", \"a\", \"l\", \"-\", \"s\", \"c\", \"a\", \"l\", \"e\", \"=\", \"1\", \".\", \"0\", \",\", \" \", \"m\", \"a\", \"x\", \"i\", \"m\", \"u\", \"m\", \"-\", \"s\", \"c\", \"a\", \"l\", \"e\", \"=\", \"1\", \".\", \"0\", \",\", \" \", \"u\", \"s\", \"e\", \"r\", \"-\", \"s\", \"c\", \"a\", \"l\", \"a\", \"b\", \"l\", \"e\", \"=\", \"n\", \"o\", \"'\", \")\", \";\", \"\n\", \"d\", \"o\", \"c\", \"u\", \"m\", \"e\", \"n\", \"t\", \".\", \"g\", \"e\", \"t\", \"E\", \"l\", \"e\", \"m\", \"e\", \"n\", \"t\", \"s\", \"B\", \"y\", \"T\", \"a\", \"g\", \"N\", \"a\", \"m\", \"e\", \"(\", \"'\", \"h\", \"e\", \"a\", \"d\", \"'\", \")\", \"[\", \"0\", \"]\", \".\", \"a\", \"p\", \"p\", \"e\", \"n\", \"d\", \"C\", \"h\", \"i\", \"l\", \"d\", \"(\", \"m\", \"e\", \"t\", \"a\", \")\", \";\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/Np7u8UHK.swift",
+      "kind": "Array",
+      "offset": 119,
+      "length": 45,
+      "value": "[\"g\", \"a\", \"m\", \"e\", \" \", \"v\", \"i\", \"e\", \"w\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/Np7u8UHK.swift",
+      "kind": "Array",
+      "offset": 257,
+      "length": 60,
+      "value": "[\"l\", \"o\", \"a\", \"d\", \"i\", \"n\", \"g\", \" \", \"v\", \"i\", \"e\", \"w\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/AppsFlyerConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 65,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/AppsFlyerConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 101,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/AppsFlyerConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 133,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/TokensHelper.swift",
+      "kind": "Array",
+      "offset": 288,
+      "length": 55,
+      "value": "[\"r\", \"e\", \"c\", \"e\", \"i\", \"v\", \"e\", \"d\", \"U\", \"R\", \"L\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/TokensHelper.swift",
+      "kind": "Array",
+      "offset": 379,
+      "length": 85,
+      "value": "[\"h\", \"a\", \"s\", \"L\", \"a\", \"u\", \"n\", \"c\", \"h\", \"e\", \"d\", \"B\", \"e\", \"f\", \"o\", \"r\", \"e\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/TokensHelper.swift",
+      "kind": "Array",
+      "offset": 501,
+      "length": 25,
+      "value": "[\"t\", \"o\", \"k\", \"e\", \"n\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/TokensHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 555,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/TokensHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 584,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/TokensHelper.swift",
+      "kind": "FloatLiteral",
+      "offset": 613,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/TokensHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 644,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/TokensHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1726,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/TokensHelper.swift",
+      "kind": "Array",
+      "offset": 2379,
+      "length": 20,
+      "value": "[\"H\", \"E\", \"A\", \"D\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/TokensHelper.swift",
+      "kind": "Array",
+      "offset": 2652,
+      "length": 30,
+      "value": "[\"S\", \"e\", \"r\", \"v\", \"e\", \"r\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/TokensHelper.swift",
+      "kind": "Array",
+      "offset": 2780,
+      "length": 50,
+      "value": "[\"c\", \"l\", \"o\", \"u\", \"d\", \"f\", \"l\", \"a\", \"r\", \"e\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/TokensHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2933,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/TokensHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3145,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/TokensHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3366,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/TokensHelper.swift",
+      "kind": "Array",
+      "offset": 3625,
+      "length": 50,
+      "value": "[\"a\", \"p\", \"n\", \"s\", \"_\", \"t\", \"o\", \"k\", \"e\", \"n\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/TokensHelper.swift",
+      "kind": "Array",
+      "offset": 3685,
+      "length": 25,
+      "value": "[\"t\", \"o\", \"k\", \"e\", \"n\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/TokensHelper.swift",
+      "kind": "Array",
+      "offset": 3720,
+      "length": 60,
+      "value": "[\"a\", \"p\", \"p\", \"s\", \"f\", \"l\", \"y\", \"e\", \"r\", \"_\", \"i\", \"d\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/TokensHelper.swift",
+      "kind": "Array",
+      "offset": 3790,
+      "length": 35,
+      "value": "[\"d\", \"e\", \"f\", \"a\", \"u\", \"l\", \"t\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/TokensHelper.swift",
+      "kind": "Array",
+      "offset": 4133,
+      "length": 185,
+      "value": "[\"a\", \"p\", \"n\", \"s\", \"_\", \"t\", \"o\", \"k\", \"e\", \"n\", \"=\", \"t\", \"o\", \"k\", \"e\", \"n\", \"&\", \"a\", \"p\", \"p\", \"s\", \"f\", \"l\", \"y\", \"e\", \"r\", \"_\", \"i\", \"d\", \"=\", \"d\", \"e\", \"f\", \"a\", \"u\", \"l\", \"t\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/TokensHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4765,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/TokensHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4825,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/TokensHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4846,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/TokensHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4921,
+      "length": 13,
+      "value": "1000000000"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/TokensHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5136,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/TokensHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5161,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/TokensHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5519,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/TokensHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5700,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/TokensHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6122,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/TokensHelper.swift",
+      "kind": "Array",
+      "offset": 6470,
+      "length": 25,
+      "value": "[\"t\", \"o\", \"k\", \"e\", \"n\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/TokensHelper.swift",
+      "kind": "Array",
+      "offset": 7131,
+      "length": 25,
+      "value": "[\"t\", \"o\", \"k\", \"e\", \"n\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/TokensHelper.swift",
+      "kind": "Array",
+      "offset": 7249,
+      "length": 25,
+      "value": "[\"t\", \"o\", \"k\", \"e\", \"n\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/TokensHelper.swift",
+      "kind": "Array",
+      "offset": 7878,
+      "length": 25,
+      "value": "[\"t\", \"o\", \"k\", \"e\", \"n\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/TokensHelper.swift",
+      "kind": "Array",
+      "offset": 7978,
+      "length": 35,
+      "value": "[\"d\", \"e\", \"f\", \"a\", \"u\", \"l\", \"t\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/TokensHelper.swift",
+      "kind": "Array",
+      "offset": 8087,
+      "length": 50,
+      "value": "[\"a\", \"p\", \"n\", \"s\", \"_\", \"t\", \"o\", \"k\", \"e\", \"n\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/TokensHelper.swift",
+      "kind": "Array",
+      "offset": 8169,
+      "length": 60,
+      "value": "[\"a\", \"p\", \"p\", \"s\", \"f\", \"l\", \"y\", \"e\", \"r\", \"_\", \"i\", \"d\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/TokensHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8530,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/TokensHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9152,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Работа\/15.0 projects\/Current\/AppsDataHelper\/AppsDataHelper\/TokensHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9345,
+      "length": 1,
+      "value": "1"
+    }
+  ]
+}
