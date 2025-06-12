@@ -15,8 +15,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "AppsDataHelper",
-            url: "https://github.com/smoke0030/AppTokenKit/releases/download/1.0.17/AppTokenKit.xcframework.zip",
-            checksum: "e29ccdc83bd2737d7c22f8b31afe2c17e7aa64c6e94fc4f49403f4e4b7e376ca"
+            url: "https://github.com/smoke0030/AppsDataHelper/releases/download/1.0.0/AppsDataHelper.xcframework.zip",
+            checksum: "2b6788e4aeea0b033e51b0a63b4b6c63944ad9807922ecbb033878e250265afd"
         )
     ]
 )
